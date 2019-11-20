@@ -2967,3 +2967,19 @@ let movies = [
       "rate": 8
     }
   ]
+
+
+  function orderByYear (array) {
+    array.sort( (a, b) => {
+    return a.year - b.year
+    })
+  }
+  
+  
+  
+  orderByYear(movies)
+  console.log(movies)
+
+
+  
+  
